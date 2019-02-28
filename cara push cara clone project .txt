@@ -1,0 +1,33 @@
+CARA PUSH DAN CARA CLONE PROJECT DI GITHUB
+
+1. CARA CLONE
+	- buka github dengan alamat https://github.com
+	- lalu bukan akun orang lain yang akan di clone projek
+	- clik bacaan repositoris
+	- pilih projek mana yang akan di clone
+	- setelah memilih, klik projek yang akan di clone lalu akan muncul tampilan clone or download
+	- lalu buka folder yang akan dijadikan tempat penyimpanan hasil clone tersebut
+	- klik kanan folder tempat penyimpanan hasil clone lalu pilih 'Git Bash here'
+	- lalu akan muncul tampilan untuk mengclone
+	- tulis syntak 1. git --version
+			2. git clone (lalu copy alamatnya bisa menggunakan https/ uhss)
+	- setelah itu refresh github kita maka projek itu sudah di clone
+
+2. CARA PUSH
+	- buka github dengan alamat https://github.com
+	- buka akun github kita
+	- setelah itu klik tanda '+' disebelah kanan atas pilih new repository
+	- isi data repository nama dan description lalu create repository
+	- lalu buka file yang akan di push 
+	- klik kanan file yang akan di push, pilih 'git bash here'
+	- lalu akan munncul tampilan untuk nge-push
+	- tulis syntak 1. git init
+			2. git add *
+			3. git commit -m "upload pertama"
+			4. git remote add origin (copy alamat nya bisa menggunakan https/ uhss)
+			5. git push -u origin master
+	 #apabila belum di config masukan syntak ini
+		1. git config --global user.email "auliaerwinadiska@gmail.com"
+		2. git config --global user.name "adiskaauliaerwin"
+		
+ 
